@@ -15,6 +15,13 @@
   # Raw configuration files
   home.file.".vimrc".source = ./vimrc;
 
+  # Git config
+  programs.git = {
+    enable = true;
+    userName = "XFFXFF";
+    userEmail = "1247714429@qq.com";
+  };
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards
