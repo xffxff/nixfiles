@@ -6,6 +6,12 @@
   home.username = "zhoufan";
   home.homeDirectory = "/home/zhoufan";
 
+  # Packages to install
+  home.packages = [
+    pkgs.bat
+    pkgs.fd
+  ];
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards
