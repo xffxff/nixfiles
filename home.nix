@@ -10,6 +10,7 @@
   home.packages = [
     pkgs.bat
     pkgs.fd
+    pkgs.zellij
   ];
 
   # Raw configuration files
@@ -20,6 +21,9 @@
     enable = true;
     userName = "XFFXFF";
     userEmail = "1247714429@qq.com";
+    aliases = {
+      st = "status";
+    };
   };
 
   # This value determines the Home Manager release that your
