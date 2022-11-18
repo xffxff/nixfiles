@@ -15,7 +15,6 @@
 
   # Raw configuration files
   home.file.".vimrc".source = ./vimrc;
-  home.file.".ssh/config".source = ./ssh-config;
 
   # Git config
   programs.git = {

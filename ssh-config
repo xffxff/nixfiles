@@ -2,4 +2,6 @@ Host github.com
     HostName ssh.github.com
     Port 443
     User git
-    ProxyCommand sh -c "export IP=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'); nc -v -x $IP:7890 %h %p"
+    ProxyCommand nc -v -x 127.0.0.1:7890 %h %p
+
+
