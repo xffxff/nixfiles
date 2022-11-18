@@ -32,7 +32,9 @@
   };
 
   programs.zsh = {
-    enable=true;
+    enable = true;
+    enableAutosuggestions = true;
+    enableSyntaxHighlighting = true;
     oh-my-zsh = {
       enable = true;
       plugins = [ "git" ];
