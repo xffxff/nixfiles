@@ -25,6 +25,11 @@
     aliases = {
       st = "status";
     };
+    extraConfig = {
+      push = {
+        default = "current";
+      };
+    };
   };
 
   # This value determines the Home Manager release that your
