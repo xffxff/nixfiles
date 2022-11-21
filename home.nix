@@ -11,6 +11,7 @@
     pkgs.bat
     pkgs.fd
     pkgs.zellij
+    pkgs.exa
   ];
 
   # Raw configuration files
@@ -35,6 +36,10 @@
     enable = true;
     enableAutosuggestions = true;
     enableSyntaxHighlighting = true;
+    shellAliases = {
+      ls = "exa";
+      ll = "exa -l";
+    };
     plugins = [
       # config powerlevel10k based on https://discourse.nixos.org/t/using-an-external-oh-my-zsh-theme-with-zsh-in-nix/6142/2
       {
