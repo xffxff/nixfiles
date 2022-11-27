@@ -1,4 +1,8 @@
 
+```
+ln -s /path/to/nixfiles ~/.config/nixpkfs
+```
+
 ## Trouble Shooting
 ![](./imgs/nix_conflicts.png)
 
