@@ -17,6 +17,7 @@
   # Raw configuration files
   home.file.".vimrc".source = ./vimrc;
   home.file."proxy.sh".source = ./scripts/proxy.sh;
+  home.file.".cargo/config".source = ./cargo;
 
   # Git config
   programs.git = {

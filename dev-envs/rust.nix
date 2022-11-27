@@ -16,6 +16,7 @@ in
     pkgs.mdbook
     pkgs.mdbook-mermaid
     pkgs.mdbook-linkcheck
+    pkgs.rust-analyzer
     ];
 
     shellHook = ''
