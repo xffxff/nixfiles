@@ -8,15 +8,17 @@ let
 in
   pkgs.mkShell {
     buildInputs = with pkgs; [
-    (pkgs.rust-bin.stable.latest.default.override {
-	  extensions = [ "rust-src" "cargo" "rustc" ];
-    })
-    pkgs.typos
-    pkgs.zola
-    pkgs.mdbook
-    pkgs.mdbook-mermaid
-    pkgs.mdbook-linkcheck
-    pkgs.rust-analyzer
+      (pkgs.rust-bin.stable.latest.default.override {
+	    extensions = [ "rust-src" "cargo" "rustc" ];
+      })
+      pkgs.typos
+      pkgs.zola
+      pkgs.mdbook
+      pkgs.mdbook-mermaid
+      pkgs.mdbook-linkcheck
+      pkgs.rust-analyzer
+      pkgs.pkg-config
+      pkgs.openssl
     ];
 
     shellHook = ''

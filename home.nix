@@ -12,6 +12,7 @@
     pkgs.fd
     pkgs.zellij
     pkgs.exa
+    pkgs.ripgrep
   ];
 
   # Raw configuration files
