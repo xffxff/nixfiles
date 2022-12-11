@@ -13,6 +13,7 @@
     pkgs.zellij
     pkgs.exa
     pkgs.ripgrep
+    pkgs.direnv
   ];
 
   # Raw configuration files
@@ -43,6 +44,9 @@
       ls = "exa";
       ll = "exa -l";
     };
+    initExtra = ''
+      eval "$(direnv hook zsh)"
+    '';
     plugins = [
       # config powerlevel10k based on https://discourse.nixos.org/t/using-an-external-oh-my-zsh-theme-with-zsh-in-nix/6142/2
       {
