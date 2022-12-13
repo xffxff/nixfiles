@@ -20,6 +20,7 @@
   home.file.".vimrc".source = ./vimrc;
   home.file."proxy.sh".source = ./scripts/proxy.sh;
   home.file.".cargo/config".source = ./cargo;
+  home.file.".config/pypoetry/config.toml".source = ./poetry.config;
 
   # Git config
   programs.git = {
