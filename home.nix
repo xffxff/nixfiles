@@ -14,6 +14,7 @@
     pkgs.exa
     pkgs.ripgrep
     pkgs.direnv
+    pkgs.htop
   ];
 
   # Raw configuration files
@@ -21,6 +22,7 @@
   home.file."proxy.sh".source = ./scripts/proxy.sh;
   home.file.".cargo/config".source = ./cargo;
   home.file.".config/pypoetry/config.toml".source = ./poetry.config;
+  home.file.".config/nix/nix.conf".source = ./nix.conf;
 
   # Git config
   programs.git = {
