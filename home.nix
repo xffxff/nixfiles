@@ -23,6 +23,7 @@
   home.file.".cargo/config".source = ./cargo;
   home.file.".config/pypoetry/config.toml".source = ./poetry.config;
   home.file.".config/nix/nix.conf".source = ./nix.conf;
+  home.file.".config/zellij/config.kdl".source = ./config.kdl;
 
   # Git config
   programs.git = {
