@@ -51,6 +51,7 @@
     };
     initExtra = ''
       source <(kubectl completion zsh)
+      PATH="$HOME/.krew/bin:$PATH"
     '';
     plugins = [
       # config powerlevel10k based on https://discourse.nixos.org/t/using-an-external-oh-my-zsh-theme-with-zsh-in-nix/6142/2
