@@ -15,6 +15,8 @@
     pkgs.ripgrep
     pkgs.direnv
     pkgs.htop
+    pkgs.kubectl
+    pkgs.k9s
   ];
 
   # Raw configuration files
