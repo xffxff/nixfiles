@@ -34,6 +34,9 @@
     userEmail = "1247714429@qq.com";
     aliases = {
       st = "status";
+      ck = "checkout";
+      cm = "commit -m";
+      a = "add";
     };
     extraConfig = {
       push = {
