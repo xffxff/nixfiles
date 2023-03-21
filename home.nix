@@ -8,6 +8,7 @@
 
   # Packages to install
   home.packages = [
+    pkgs.vim
     pkgs.bat
     pkgs.fd
     pkgs.zellij
