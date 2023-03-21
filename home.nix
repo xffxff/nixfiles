@@ -16,6 +16,7 @@
     pkgs.direnv
     pkgs.htop
     pkgs.kubectl
+    pkgs.kubectx
     pkgs.k9s
   ];
 
