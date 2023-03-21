@@ -21,3 +21,6 @@ Build docker image using local proxy
 ```
 docker build --build-arg http_proxy=http://proxy_url:port --build-arg https_proxy=http://proxy_url:port --network=host .
 ```
+
+## Configure Network Proxy for Nix
+https://github.com/NixOS/nixpkgs/issues/27535#issuecomment-1178444327
