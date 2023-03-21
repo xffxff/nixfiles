@@ -1,6 +1,6 @@
 
 ```
-ln -s /path/to/nixfiles ~/.config/nixpkfs
+ln -s /path/to/nixfiles ~/.config/nixpkgs
 ```
 
 ## Trouble Shooting
