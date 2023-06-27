@@ -1,6 +1,6 @@
 
 ```
-ln -s /path/to/nixfiles ~/.config/nixpkgs
+ln -s /path/to/nixfiles ~/.config/home-manager
 ```
 
 ## Trouble Shooting
