@@ -16,6 +16,9 @@ nix-env --set-flag priority 0 nix-2.11.0
 ### proxy settings
 https://github.com/NixOS/nix/issues/1472#issuecomment-1532955973
 
+### Meslo Nerd Font
+https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/M/Regular/MesloLGMNerdFont-Regular.ttf
+
 ## Build Docker Image
 Build docker image with nix and home-manager
 ```
