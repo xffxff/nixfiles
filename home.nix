@@ -12,7 +12,7 @@
     pkgs.bat
     pkgs.fd
     pkgs.zellij
-    pkgs.exa
+    pkgs.eza
     pkgs.ripgrep
     pkgs.direnv
     pkgs.htop
@@ -52,8 +52,8 @@
     enableAutosuggestions = true;
     enableSyntaxHighlighting = true;
     shellAliases = {
-      ls = "exa";
-      ll = "exa -l";
+      ls = "eza";
+      ll = "eza -l";
       k = "kubectl";
     };
     initExtra = ''
