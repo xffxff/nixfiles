@@ -4,7 +4,12 @@
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
   home.username = "zhoufan";
-  home.homeDirectory = "/Users/zhoufan";
+
+  # Set home directory based on the operating system
+  home.homeDirectory = if builtins.currentSystem == "Darwin" then
+    "/Users/zhoufan"  # macOS
+  else
+    "/home/zhoufan";  # Default for other systems
 
   # Packages to install
   home.packages = [
