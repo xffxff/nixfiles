@@ -55,7 +55,7 @@
   programs.zsh = {
     enable = true;
     enableAutosuggestions = true;
-    enableSyntaxHighlighting = true;
+    syntaxHighlighting.enable = true;
     shellAliases = {
       ls = "eza";
       ll = "eza -l";
