@@ -3,13 +3,10 @@
 {
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
-  home.username = "zhoufan";
+  home.username = "shiyue";
 
   # Set home directory based on the operating system
-  home.homeDirectory = if builtins.currentSystem == "Darwin" then
-    "/Users/zhoufan"  # macOS
-  else
-    "/home/zhoufan";  # Default for other systems
+  home.homeDirectory = "/Users/shiyue";
 
   # Packages to install
   home.packages = [
@@ -31,14 +28,14 @@
   home.file."proxy.sh".source = ./scripts/proxy.sh;
   home.file.".cargo/config".source = ./cargo;
   home.file.".config/pypoetry/config.toml".source = ./poetry.config;
-  home.file.".config/nix/nix.conf".source = ./nix.conf;
+  # home.file.".config/nix/nix.conf".source = ./nix.conf;
   home.file.".config/zellij/config.kdl".source = ./config.kdl;
 
   # Git config
   programs.git = {
     enable = true;
-    userName = "XFFXFF";
-    userEmail = "1247714429@qq.com";
+    userName = "shiyue-loop";
+    userEmail = "shiyue@01.ai";
     aliases = {
       st = "status";
       ck = "checkout";
