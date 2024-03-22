@@ -21,6 +21,7 @@
     pkgs.kubectl
     pkgs.kubectx
     pkgs.k9s
+    pkgs.pipx
   ];
 
   # Raw configuration files
