@@ -34,8 +34,8 @@
   # Git config
   programs.git = {
     enable = true;
-    userName = "shiyue-loop";
-    userEmail = "shiyue@01.ai";
+    userName = "XFFXFF";
+    userEmail = "1247714429@qq.com";
     aliases = {
       st = "status";
       ck = "checkout";
